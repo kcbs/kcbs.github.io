@@ -6,6 +6,7 @@ tags:
 - Pokeon
 - Game
 ---
+<img src="http://vignette4.wikia.nocookie.net/pokemon/images/1/1d/RedBox(J).jpg/revision/latest?cb=20110309010330">
 ## Introduction
 전설의 게임, 포켓몬스터 적/녹 버전이 출시된지 거의 20년이 다 되어간다.
 게임보이의 기기 한계상 복잡하고 화려한 그래픽을 연출할수는 없었지만 그 특유의 게임 시스템만큼은 지금까지도 유지되고 있다. 아직까지도 적/녹 버전을 플레이하는 유저들은 상당수 보이고 있으며, 본 버전에 나온 151마리의 포켓몬들은 아직까지도 현역으로 인기를 유지하고 있을 정도이다.
