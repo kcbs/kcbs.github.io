@@ -1,11 +1,8 @@
 ---
 layout: default
-title: JAVA Tutorial: 포켓몬 게임을 만들어보자!! Part 1
-tags:
-- Java
-- Pokeon
-- Game
+title: [JAVA Tutorial] 포켓몬 게임을 만들어보자!! Part 1
 ---
+
 <img src="http://vignette4.wikia.nocookie.net/pokemon/images/1/1d/RedBox(J).jpg/revision/latest?cb=20110309010330">
 ## Introduction
 전설의 게임, 포켓몬스터 적/녹 버전이 출시된지 거의 20년이 다 되어간다.
