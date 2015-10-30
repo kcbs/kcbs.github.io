@@ -1,4 +1,5 @@
 ---
+layout: default
 title: JAVA Tutorial: 포켓몬 게임을 만들어보자!! Part 1
 tags:
 - Java
