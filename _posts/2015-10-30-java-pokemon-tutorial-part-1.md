@@ -1,6 +1,5 @@
 ---
 layout: default
-title: [JAVA Tutorial] 포켓몬 게임을 만들어보자!! Part 1
 ---
 
 <img src="http://vignette4.wikia.nocookie.net/pokemon/images/1/1d/RedBox(J).jpg/revision/latest?cb=20110309010330">
