@@ -50,4 +50,5 @@ html,body{
 .wrapper {
 	display:inline-block;
 	min-height:300px;
+	width:100%;
 }
