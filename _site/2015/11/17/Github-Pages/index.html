@@ -149,17 +149,21 @@
 
 <p><a href="https://github.com">Github</a>은 다양한 서비스를 제공하고 있다. 가장 기본적인 Git 서버부터 시작해서 코드 Snippet 서비스인 Gist까지. 빠르고 안정적인 서비스들을 제공하며 오픈소스의 선두주자로 우뚝 나아가고 있다. Github이 제공하는 사이트들 중에는 상당히 눈여겨볼만한게 한가지 있는데, 그것이 바로 Github Pages이다.</p>
 
-<p>Github Pages는 깃헙에서 제공하는 무료 웹 호스팅이라고 볼수 있다. 물론 무료이니만큼 상당한 제약이 걸리게 되는데, 눈여겨볼만한것들은
-1. 소스코드가 전부 공개된다.
-2. <strong>정적 웹사이트만 만들수 있다.</strong> (서버 언어 사용 불가능)</p>
+<p>Github Pages는 깃헙에서 제공하는 무료 웹 호스팅이라고 볼수 있다. 물론 무료이니만큼 상당한 제약이 걸리게 되는데, 눈여겨볼만한것들은</p>
+
+<ol>
+<li>소스코드가 전부 공개된다.</li>
+<li><strong>정적 웹사이트만 만들수 있다.</strong> (서버 언어 사용 불가능)</li>
+</ol>
 
 <p>상당히 제한적이기 때문에 상호간의 소통을 요구하는 게시판 등의 웹사이트를 돌리는 것은 원천적으로 불가능하지만, <strong>블로그</strong>와 같은 개인용 사이트는 충분히 만들어낼 수 있다.</p>
 
 <h2>시작하기</h2>
 
-<div class="highlight"><pre><code class="language-text" data-lang="text">여기서는 일단 **Github 아이디가 존재**하고 **Git command line이 사용 가능**하다는 가정 하에 설명한다.
-아래 예시들은 모두 Bash shell을 이용합니다. 윈도우 사용자분들은 Cygwin을 사용하시거나 아래의 코드들을 자체적으로 윈도우 cmd 코드로 변환해서 적용해주세요. Git 커맨드들은 윈도우/리눅스 공용이므로 그대로 적용시켜도 됩니다.
-</code></pre></div>
+<blockquote>
+<p>여기서는 일단 <strong>Github 아이디가 존재</strong>하고 <strong>Git command line이 사용 가능</strong>하다는 가정 하에 설명한다.
+아래 예시들은 모두 Bash shell을 이용합니다. 윈도우 사용자분들은 Cygwin을 사용하시거나 아래의 코드들을 자체적으로 윈도우 cmd 코드로 변환해서 적용해주세요. Git 커맨드들은 윈도우/리눅스 공용이므로 그대로 적용시켜도 됩니다.</p>
+</blockquote>
 
 <p>우선 깃헙 메인 페이지에서 New Repository를 클릭하여 새로운 Repository를 만들어야 한다. 여기서 주의할 점이 있는데, <strong>Repository의 이름이 무조건 USERNAME.github.io의 형식</strong>이여야 한다는 것이다. 따라서, <strong>한 계정당 Repository는 하나</strong>만 만들 수 있다.</p>
 
