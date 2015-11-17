@@ -1,7 +1,8 @@
 ---
+title: Java로 포켓몬을 만들어보자. Part 1
 layout: default
 tags:
-- JAVA
+- Java
 - Tutorial
 ---
 
