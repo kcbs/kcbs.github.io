@@ -1,5 +1,8 @@
 ---
 layout: default
+tags:
+- test
+- test2
 ---
 
 Hello, world! This is my very first post in the blog!

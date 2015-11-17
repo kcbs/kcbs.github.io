@@ -1,11 +1,21 @@
 {% include header.html %}
-	<div class="col-xs-10">
+	<div class="col-xs-9">
 		<div class="post">
 			<div class="post-title">
 				<h1>{{ page.title }}</h1>
 			</div>	
 			<div class="pull-right">{{page.date | date: "%B %d, %Y"}}</div>
 			{{page.date}}
+			{% if page.tags? %}
+			<div class="tags">
+			<div class="tag-desc">
+				Tags: 
+			</div>
+			{% for t in page.tags %}
+				<div class="tag">{{t}}</div>
+			{% endfor %}
+			</div>
+			{% endif %}
 			<div class="post-body">
 				{{ content | markdownify }}
 			</div>

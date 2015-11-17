@@ -1,4 +1,22 @@
-<nav class="sidenav col-xs-2">
+{% assign display = "Python||JAVA" | split:"||" %}
+
+<nav class="sidenav col-xs-3">
+	{% for d in display %}
+		<div class="heading">{{d}}</div>
+		<ul>
+			{% assign counter = 0 %}
+			{% for p in site.posts %}
+				{% if counter < 5 %}
+					{% for t in p.tags %}
+						{% if t == d %}
+							{% assign counter = counter | plus:1 %}
+							<li><a href="{{p.url}}">{{p.title}}</a></li>
+						{% endif %}
+					{% endfor %}
+				{% endif %}
+			{% endfor %}
+		</ul>
+	{% endfor %}
 	<div class="heading">Recent Posts</div>
 	<ul>
 		{% for p in site.posts | limit:5 %}

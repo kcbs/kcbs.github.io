@@ -1,5 +1,8 @@
 ---
 layout: default
+tags:
+- JAVA
+- Tutorial
 ---
 
 <img src="http://vignette4.wikia.nocookie.net/pokemon/images/1/1d/RedBox(J).jpg/revision/latest?cb=20110309010330">
