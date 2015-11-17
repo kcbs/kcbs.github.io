@@ -1,8 +1,8 @@
-{% assign display = "Tutorial||Python||JAVA" | split:"||" %}
+{% assign display = "Tutorial||JAVA" | split:"||" %}
 
 <nav class="sidenav col-xs-3">
 	{% for d in display %}
-		<div class="heading">{{d}}</div>
+		<a class="heading" href="/tag/{{d}}/">{{d}}</a>
 		<ul>
 			{% assign counter = 0 %}
 			{% for p in site.posts %}

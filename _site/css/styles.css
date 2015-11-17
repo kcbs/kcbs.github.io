@@ -54,6 +54,14 @@ html,body{
 .sidenav .heading {
 	font-size:20px;
 	padding:5px;
+	display:inline-block;
+	width:100%;
+	color:white;
+}
+.sidenav a.heading:hover {
+	background-color:#eee;
+	text-decoration:none;
+	color:#333;
 }
 .wrapper {
 	min-height:300px;
