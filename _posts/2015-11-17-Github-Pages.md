@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Github Pages로 개인용 블로그 만들기
+title: Github Pages로 개인용 블로그 만들기 - 기초편
 tags:
 - Tutorial
 - Jekyll
@@ -19,7 +19,8 @@ Github Pages는 깃헙에서 제공하는 무료 웹 호스팅이라고 볼수 �
 
 ## 시작하기
 
-> 여기서는 일단 **Github 아이디가 존재**하고 **Git command line이 사용 가능**하다는 가정 하에 설명한다.
+> 여기서는 일단 **Github 아이디가 존재**하고 **Git command line이 사용 가능**하다는 가정 하에 설명합니다.
+> 
 > 아래 예시들은 모두 Bash shell을 이용합니다. 윈도우 사용자분들은 Cygwin을 사용하시거나 아래의 코드들을 자체적으로 윈도우 cmd 코드로 변환해서 적용해주세요. Git 커맨드들은 윈도우/리눅스 공용이므로 그대로 적용시켜도 됩니다.
 
 우선 깃헙 메인 페이지에서 New Repository를 클릭하여 새로운 Repository를 만들어야 한다. 여기서 주의할 점이 있는데, **Repository의 이름이 무조건 USERNAME.github.io의 형식**이여야 한다는 것이다. 따라서, **한 계정당 Repository는 하나**만 만들 수 있다.
