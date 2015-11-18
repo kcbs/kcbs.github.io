@@ -5,3 +5,7 @@ paginate: 10
 markdown: redcarpet
 permalink: pretty
 highlighter: pygments
+
+gems:
+- jekyll-sitemap
+- jekyll-mentions
