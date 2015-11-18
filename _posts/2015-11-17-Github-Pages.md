@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Github Pages로 개인용 블로그 만들기 - 기초편
+category: Tutorial
 tags:
 - Tutorial
 - Jekyll
