@@ -5,6 +5,16 @@ html,body{
 .navbar {
 	margin-bottom:0;
 	border-radius:0;
+	height:120px;
+	width:120%;
+	margin-left:-20px;
+	margin-top:-60px;
+	padding-left:30px;
+	padding-top:60px;
+	-ms-transform: rotate(-3deg); /* IE 9 */
+	-webkit-transform: rotate(-3deg); /* Safari */
+	transform: rotate(-3deg);
+	z-index:2;
 }
 .navbar-brand a {
 	font-weight:bold;
@@ -14,25 +24,37 @@ html,body{
 	text-decoration:none;
 	font-size:19px;
 }
+.navbar.deco {
+	height:70px;
+	background-color:#4078C0;
+	z-index:-10;
+	margin-top:-60px;
+	-ms-transform: rotate(2deg); /* IE 9 */
+	-webkit-transform: rotate(2deg); /* Safari */
+	transform: rotate(2deg);
+}
+.navbar-header {
+	padding-right:15%;
+}
 
 .post {
 	width:90%;	
 	margin:auto;
+	margin-top:40px;
 }
 .post-title {
 	border-bottom:1px solid #ababab;
 }
 .post-body {
-	margin-top:20px;
 	margin-bottom:20px;
 }
 .sidenav {
 	height:100%;
 	display:inline-block;
-	background-color:#333;
 	color:white;
 	padding:0;
 	padding-bottom:10px;
+	padding-top:20px;
 }
 .sidenav ul {
 	padding:0;
@@ -51,18 +73,17 @@ html,body{
 }
 .sidenav .widget {
 	background-color:#454545;
-	border:1px solid #eee;
+	border:3px solid #5098e0;
 	border-radius:10px;
 	margin-top:10px;
 	padding-bottom:15px;
 }
 .sidenav li a:hover{
-	background-color:#eee;
+	background-color:#5098e0;
 	text-decoration:none;
-	color:#333;
 }
 .sidenav .heading {
-	border-bottom:1px solid #555;
+	border-bottom:1px solid #5098e0;
 	font-size:20px;
 	padding:5px;
 	display:inline-block;
@@ -79,9 +100,8 @@ html,body{
 	cursor:pointer;
 }
 .sidenav .heading-cat:hover {
-	background-color:#eee;
+	background-color:#5098e0;
 	text-decoration:none;
-	color:#333;
 }
 .sidenav a.heading:hover {
 	background-color:#eee;
@@ -97,15 +117,6 @@ html,body{
 .wrapper {
 	min-height:300px;
 	position:relative;
-}
-.background {
-	position:absolute;
-	top: 0px;
-    left: 0px;
-    width: 31%;
-    height: 100%;
-    background-color:#333;
-    z-index: -100;
 }
 
 .tag {
@@ -129,3 +140,16 @@ html,body{
 
 .adsense {padding:20px;}
 .license {padding:10px 20px;}
+
+/* high res fix*/
+@media (min-width: 768px) {
+	.navbar-header {
+		padding-right:0;
+	}
+	.navbar {
+		height:150px;
+	}
+	.navbar.deco {
+		height:80px;
+	}
+}
