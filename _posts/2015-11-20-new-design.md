@@ -2,6 +2,8 @@
 layout: default
 title: 사이트 디자인 업데이트
 category: notice
+tags:
+- notice
 ---
 
 디자인 업데이트 했습니다. 
