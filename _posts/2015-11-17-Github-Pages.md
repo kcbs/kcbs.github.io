@@ -8,6 +8,8 @@ tags:
 - Github
 ---
 
+{% include github-page.html %}
+
 ## Github Pages란?
 <a href="https://github.com">Github</a>은 다양한 서비스를 제공하고 있다. 가장 기본적인 Git 서버부터 시작해서 코드 Snippet 서비스인 Gist까지. 빠르고 안정적인 서비스들을 제공하며 오픈소스의 선두주자로 우뚝 나아가고 있다. Github이 제공하는 사이트들 중에는 상당히 눈여겨볼만한게 한가지 있는데, 그것이 바로 Github Pages이다.
 
@@ -76,4 +78,4 @@ Hello, World가 뜨는걸 확인하면서 Github Pages가 제대로 확인중이
 
 사실 html, css, js, 이미지파일 등을 업로드하고 호스팅되는 시점에서 기본적으로는 누구나 간단한 정적 페이지를 만들 수 있게 된다. 하지만 Github Pages는 거기서 한층 더 나아가서 Jekyll이라는 컴파일형 정적 사이트 생성기를 지원한다. 이것을 통해서 반쯤은 동적인 사이트를 만들 수 있게 되며, 간단한 카테고리 시스템, 템플릿 등을 사용할 수 있게 된다.
 
-이 Jekyll을 이용하는 방법은 다음 포스팅에서 더욱 자세히 다루기로 한다.
+이 Jekyll을 이용하는 방법은 <a href="/tutorial/2015/11/24/Github-Pages-Jekyll">다음 포스팅</a>에서 설명한다.

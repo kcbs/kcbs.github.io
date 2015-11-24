@@ -7,6 +7,9 @@ tags:
 - Jekyll
 - Github
 ---
+
+{% include github-page.html %}
+
 ## 시작하며
 
 지난 시간에는 기본중의 기본인 github pages 저장소만 만들어봤다. USERNAME.github.io로 이름지어진 이 페이지는 Github이 알아서 해당 주소로 사이트를 올려주게 된다. 근본적으로는 `static site`이기 때문에 서버사이드 코드는 전혀 사용할 수 없으며, 이 특성때문에 사실은 블로그로 활용하기 애매해진다.
