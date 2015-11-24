@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://kcbs.github.io/chat/2015/11/24/chat-Github-Trending-2015-nov-4th/</loc>
+    </url>
+    
+    <url>
         <loc>http://kcbs.github.io/tutorial/2015/11/24/Github-Pages-Jekyll/</loc>
     </url>
     
@@ -69,6 +73,10 @@
     
     <url>
         <loc>http://kcbs.github.io/tag/notice/</loc>
+    </url>
+    
+    <url>
+        <loc>http://kcbs.github.io/tag/Github-Trending/</loc>
     </url>
     
 </urlset>
