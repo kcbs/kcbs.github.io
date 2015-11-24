@@ -1,6 +1,16 @@
 html,body{
 	height:100%;
 }
+.post-body > :not(h2) {
+	margin-left:20px;
+}
+h2 {
+	padding-bottom:5px;
+	border-bottom: 2px solid #aaa;
+}
+.h1, h1, .h2, h2, .h3, h3 {
+	font-weight:bold;
+}
 
 .navbar {
 	margin-bottom:0;
