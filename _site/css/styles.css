@@ -114,9 +114,12 @@ html,body{
 .sidenav .posts-cat.show {
 	display:inline-block;
 }
-.wrapper {
-	min-height:300px;
-	position:relative;
+.wrapper .container {
+	display: table;
+}
+.wrapper .container > div,
+.wrapper .container > nav, {
+	display: table-row;
 }
 
 .tag {
