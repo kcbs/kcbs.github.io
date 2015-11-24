@@ -16,7 +16,7 @@
 				$('.sidenav').css("height", h+"px");
 			})
 		</script>
-		<meta name="keywords" content="{{page.category}},{%for t in page.tags%}{{t}},{%endfor%}KCBS,kcbs,kcbs.github.io,blog">
+		<meta name="keywords" content="{{page.category}},{%for t in page.tags%}{{t}},{%endfor%}{%for k in page.keywords%}{{k}},{%endfor%}KCBS,kcbs,kcbs.github.io,blog">
 		<meta name="author" content="KCBS">
 		<meta charset="UTF-8">
 		<meta name="description" content="KCBS's blog">

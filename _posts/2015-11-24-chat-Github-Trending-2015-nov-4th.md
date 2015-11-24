@@ -6,6 +6,14 @@ tags:
 - Chat
 - Github
 - Github-Trending
+keywords:
+- 깃헙
+- 깃헙 트렌딩
+- 프로그래밍 언어
+- Git
+- Repository
+- 랭킹
+- 2015년 11월
 ---
 
 매주 Github Trending을 보며 이런저런 이야기를 해보는 시간입니다. 언어 사용 추세, 핫한 Repository등, 여러 각도에서 분석해봅니다.
