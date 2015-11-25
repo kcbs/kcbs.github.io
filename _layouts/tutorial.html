@@ -1,0 +1,29 @@
+{% include header.html %}
+	<div class="col-xs-12 col-sm-9">
+		<div class="post">
+			<div class="post-title">
+				<h1>{{ page.title }}</h1>
+			</div>	
+			<div class="pull-right">{{page.date | date: "%B %d, %Y"}}</div>
+			<div class="tags">
+			<div class="tag-desc">
+				Tags: 
+			</div>
+			{% for t in page.tags %}
+				<a href="/tag/{{t}}"><div class="tag">{{t}}</div></a>
+			{% endfor %}
+			</div>
+			<div class="adsense">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- kcbs.github.io -->
+				<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7569324435867375" data-ad-slot="7137482646" data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+			<div class="post-body">
+				{{ content | markdownify }}
+			</div>
+		</div>
+	</div>
+{% include footer.html %}

@@ -1,7 +1,7 @@
 html,body{
 	height:100%;
 }
-.post-body > :not(h2):not(.msg-box) {
+.post-body > :not(h2):not(.msg-box):not(.list-group) {
 	margin-left:20px;
 }
 h2 {
@@ -26,12 +26,16 @@ h2 {
 	width:120%;
 	margin-left:-20px;
 	margin-top:-60px;
-	padding-left:30px;
-	padding-top:60px;
+	padding-left:0px;
+	padding-top:65px;
 	-ms-transform: rotate(-3deg); /* IE 9 */
 	-webkit-transform: rotate(-3deg); /* Safari */
 	transform: rotate(-3deg);
 	z-index:2;
+	background-image:url('/image/KCBS-logo.png');
+	background-repeat:no-repeat;
+	background-size:230px;
+	background-position:30px 20px;
 }
 .navbar-brand a {
 	font-weight:bold;
@@ -131,13 +135,6 @@ h2 {
 .sidenav .posts-cat.show {
 	display:inline-block;
 }
-.wrapper .container {
-	display: table;
-}
-.wrapper .container > div,
-.wrapper .container > nav, {
-	display: table-row;
-}
 
 .tag {
 	height: 0;
@@ -161,6 +158,21 @@ h2 {
 .adsense {padding:20px;}
 .license {padding:10px 20px;}
 
+.navbar-inverse .navbar-collapse {
+	border-top:0;
+}
+.navbar-collapse > .navbar-nav{
+	background-color:#333;
+	padding-left:30px;
+}
+
+.list-group-item.active {
+	z-index:1;
+}
+.list-group .post-list {
+	display:none;
+}
+
 /* high res fix*/
 @media (min-width: 768px) {
 	.navbar-header {
@@ -168,8 +180,16 @@ h2 {
 	}
 	.navbar {
 		height:150px;
+		background-size:350px;
+		background-position:30px -10px;
+		padding-left:350px;
+		padding-top:100px;
 	}
 	.navbar.deco {
 		height:80px;
+	}
+	.navbar-collapse > .navbar-nav{
+		background-color:inherit;
+		padding-left:0px;	
 	}
 }

@@ -6,6 +6,10 @@
     </url>
     
     <url>
+        <loc>http://kcbs.github.io/chat/2015/11/24/chat/</loc>
+    </url>
+    
+    <url>
         <loc>http://kcbs.github.io/tutorial/2015/11/24/Github-Pages-Jekyll/</loc>
     </url>
     
@@ -33,6 +37,10 @@
     
     <url>
         <loc>http://kcbs.github.io/about/</loc>
+    </url>
+    
+    <url>
+        <loc>http://kcbs.github.io/category/</loc>
     </url>
     
     <url>
@@ -73,6 +81,14 @@
     
     <url>
         <loc>http://kcbs.github.io/tag/notice/</loc>
+    </url>
+    
+    <url>
+        <loc>http://kcbs.github.io/tag/chat/</loc>
+    </url>
+    
+    <url>
+        <loc>http://kcbs.github.io/tag/design/</loc>
     </url>
     
     <url>
