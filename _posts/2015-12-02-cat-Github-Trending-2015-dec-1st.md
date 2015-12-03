@@ -32,14 +32,14 @@ keywords:
 
 ### 3. <a href="https://github.com/JoelBesada/activate-power-mode">JoelBesada/activate-power-mode</a>
 요 며칠 생활코딩 등에서도 여러번 소개된 물건입니다. 박력있게(...) 코딩할수 있게 해주는 Atom용 플러그인입니다. 많은 설명보다 이미지 하나로 대신합니다. 
-https://cloud.githubusercontent.com/assets/688415/11453297/b8f249ec-9605-11e5-978c-eb3bb21eecd8.gif
+<img src="https://cloud.githubusercontent.com/assets/688415/11453297/b8f249ec-9605-11e5-978c-eb3bb21eecd8.gif">
 
 ### 4. <a href="https://github.com/hioa-cs/IncludeOS">hioa-cs/IncludeOS</a>
 IncludeOS는 간단한 클라우드 서비스입니다. 자세한건 저도 잘 모르지만.. 리눅스로는 VM보다 5~20%정도 성능이 향상된다고 하네요. 자세한건 README.md를 살펴봅시다.
 
 ### 5. <a href="https://github.com/qfish/XActivatePowerMode">qfish/XActivatePowerMode</a>
 3위의 active-power-mode와 같은 선상의 물건입니다. 대신 이건 XCode에서 작동하게 되어있네요. 상당히 남자다워서 저도 한번 실험해 보려고 합니다(...) 이것도 사진을 추가합니다.
-https://camo.githubusercontent.com/a25916ccc96abf4f949ae55a3fc8b0108ac578a8/687474703a2f2f3764396f30782e636f6d312e7a302e676c622e636c6f7564646e2e636f6d2f584163746976617465506f7765724d6f6465707265766965772e676966
+<img src="https://camo.githubusercontent.com/a25916ccc96abf4f949ae55a3fc8b0108ac578a8/687474703a2f2f3764396f30782e636f6d312e7a302e676c622e636c6f7564646e2e636f6d2f584163746976617465506f7765724d6f6465707265766965772e676966">
 
 ## 마무리
 이번주는 코드보다는 재미난 repository가 많군요. 1, 2위를 교육형 repository들이 차지하고 있는것도 눈여겨볼만한 점 같습니다. 3,5위의 코딩 플러그인도 독특하고 재밌는, 그리고 개발자들의 마음을 충분히 사로잡을만한 물건들이였습니다.
