@@ -59,9 +59,10 @@ h2 {
 }
 
 .post {
-	width:90%;	
-	margin:auto;
+	width:100%;	
+	margin:0;
 	margin-top:40px;
+
 }
 .post-title {
 	border-bottom:1px solid #ababab;
