@@ -18,6 +18,18 @@ h2 {
 	border-top:5px solid #4078C0;
 	border-bottom:5px solid #4078C0;
 }
+.post img {
+	width:100%;
+}
+.post img.75 {
+	width:75%;
+}
+.post img.50 {
+	width:50%;
+}
+.post img.25 {
+	width:25%;
+}
 
 .navbar {
 	margin-bottom:0;
