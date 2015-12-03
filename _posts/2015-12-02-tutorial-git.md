@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2015년 12월 첫째주 Github Trending
+title: Git 사용법을 배워보자 - 기본편
 category: Tutorial
 tags:
 - tutorial
