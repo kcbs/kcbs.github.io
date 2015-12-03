@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://kcbs.github.io/tutorial/2015/12/02/tutorial-git/</loc>
+    </url>
+    
+    <url>
+        <loc>http://kcbs.github.io/chat/2015/12/02/cat-Github-Trending-2015-dec-1st/</loc>
+    </url>
+    
+    <url>
+        <loc>http://kcbs.github.io/tutorial/2015/11/25/os-x-scheduling-jobs/</loc>
+    </url>
+    
+    <url>
         <loc>http://kcbs.github.io/chat/2015/11/25/chat-visitors/</loc>
     </url>
     
@@ -101,6 +113,34 @@
     
     <url>
         <loc>http://kcbs.github.io/tag/SEO/</loc>
+    </url>
+    
+    <url>
+        <loc>http://kcbs.github.io/tag/tutorial/</loc>
+    </url>
+    
+    <url>
+        <loc>http://kcbs.github.io/tag/os-x/</loc>
+    </url>
+    
+    <url>
+        <loc>http://kcbs.github.io/tag/Mac/</loc>
+    </url>
+    
+    <url>
+        <loc>http://kcbs.github.io/tag/Cron/</loc>
+    </url>
+    
+    <url>
+        <loc>http://kcbs.github.io/tag/launchd/</loc>
+    </url>
+    
+    <url>
+        <loc>http://kcbs.github.io/tag/Git/</loc>
+    </url>
+    
+    <url>
+        <loc>http://kcbs.github.io/page2/</loc>
     </url>
     
 </urlset>
