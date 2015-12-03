@@ -1,5 +1,6 @@
 html,body{
 	height:100%;
+	overflow-x:hidden;
 }
 .post-body > :not(h2):not(.msg-box):not(.list-group) {
 	margin-left:20px;
