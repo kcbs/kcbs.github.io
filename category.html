@@ -3,7 +3,7 @@ layout: notag
 title: Category List
 ---
 <a href="http://kcbs.github.io/">kcbs.github.io</a>의 카테고리 리스트 입니다.
-{% assign display = "Tutorial||Chat||Github Trending" | split:"||" %}
+{% assign display = "Tutorial||Chat||Github Trending||Tips" | split:"||" %}
 {% for d in display %}
 <div class="list-group">
 <a class="list-group-item active" id="{{d}}" href="#{{d}}">{{d}}</a>
