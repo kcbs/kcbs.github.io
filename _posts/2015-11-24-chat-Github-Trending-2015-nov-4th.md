@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2015년 11월 넷째주 Github Trending
-category: Chat
+category: Github Trending
 tags:
 - Chat
 - Github

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2015년 12월 첫째주 Github Trending
-category: Chat
+category: Github Trending
 tags:
 - Chat
 - Github
