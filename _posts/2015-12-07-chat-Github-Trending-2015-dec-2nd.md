@@ -30,7 +30,7 @@ keywords:
 C++로 작성되어있어서 왠만한 개발환경(iOS, Android, OSX, Linux, Windows 등등)에 다 간단히 추가할수 있는것도 좋은 부분이네요. 오늘만 728개의 Star를 받았습니다.
 
 ### 2. <a href="https://github.com/ipselon/structor">ipselon/structor</a>
-<img src="https://github.com/ipselon/structor/blob/master/images/title-background.png">
+<img src="/image/2015-12-07-github-trending/title-background.png">
 2위는 Structor로, 페이스북의 새로운 언어인 React의 UI 빌더입니다. 요즘 여러모로 핫한 언어이다 보니까 관련된 프로젝트들도 같이 주목받고 있네요.
 
 <a href="https://www.youtube.com/watch?v=AY65e6Ry_rY&list=PLAcaUOtEwjoR_U6eE2HQEXwkefeVESix1">여기</a>서 튜토리얼 영상을 보실 수 있습니다. (YouTube)
