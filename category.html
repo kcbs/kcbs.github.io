@@ -2,20 +2,11 @@
 layout: notag
 title: Category List
 ---
-<a href="http://kcbs.github.io/">kcbs.github.io</a>의 카테고리 리스트 입니다.
-{% assign display = "Tutorial||Chat||Github Trending||Tips" | split:"||" %}
-{% for d in display %}
+<a 
+href="http://kcbs.github.io/">kcbs.github.io</a>의 카테고리 리스트 입니다.
+{% for d in site.data.category.category %}
 <div class="list-group">
-<a class="list-group-item active" id="{{d}}" href="#{{d}}">{{d}}</a>
-<div class="post-list {{d}}">
-{% for p in site.posts %}
-	{% for t in p.category %}
-		{% if t == d %}
-			<a class="list-group-item" href="{{p.url}}">{{p.title}}</a>
-		{% endif %}
-	{% endfor %}
-{% endfor %}
-</div>
+	<a class="list-group-item active" id="{{d}}" href="/category/{{d}}">{{d}}</a>
 </div>
 {% endfor %}
 

@@ -1,10 +1,9 @@
-{% assign display = "Tutorial||Chat||Github Trending||Tips" | split:"||" %}
 
 <nav class="sidenav hidden-xs col-sm-3">
 	<div class="widget category">
 		<div class="heading">Categories</div>
 		<ul>
-			{% for d in display %}
+			{% for d in site.data.category.category %}
 				<li>
 					<div onclick="$(this).siblings('ul').slideToggle(150);" class="heading-cat">> {{d}}</div>
 					<ul class="posts-cat {{d}}">
