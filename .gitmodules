@@ -1,0 +1,3 @@
+[submodule "extra/Split.js"]
+	path = extra/Split.js
+	url = https://github.com/nathancahill/Split.js.git
