@@ -50,8 +50,8 @@ tags:
 		</body>
 	</html>
 
-이 html 코드에서 몇몇부분은 Jekyll의 변수로 대체할수 있는데, 우선 `[PAGE TITLE]` 부분은 우리가 _config.yaml에서 설정했기 때문에 `{{ site.title }}`로 바꿔줄수 있고, `[POST TITLE]`은 `{{ page.title }}`, 그리고 마지막으로 `[POST BODY]`는 `{{ content }}` 로 적어줄 수 있다. 이렇게 하면 추후에 Jekyll이 컴파일하면서 알아서 각각의 변수들을 상황에 맞게 변화해서 저장해주게 된다. 이러한 식으로 변화시킨 다음에 `_layouts` 폴더를 만들고 그 안에 넣어주면 된다. 해당 layout의 이름은 `default`로 정하도록 한다.
-
+이 html 코드에서 몇몇부분은 Jekyll의 변수로 대체할수 있는데, 우선 `[PAGE TITLE]` 부분은 우리가 `_config.yaml`에서 설정했기 때문에 `{%raw%}{{ site.title }}{%endraw%}`로 바꿔줄수 있고, `[POST TITLE]`은 `{%raw%}{{ page.title }}{%endraw%}`, 그리고 마지막으로 `[POST BODY]`는 `{%raw%}{{ content }}{%endraw%}` 로 적어줄 수 있다. 이렇게 하면 추후에 Jekyll이 컴파일하면서 알아서 각각의 변수들을 상황에 맞게 변화해서 저장해주게 된다. 이러한 식으로 변화시킨 다음에 `_layouts` 폴더를 만들고 그 안에 넣어주면 된다. 해당 layout의 이름은 `default`로 정하도록 한다.
+{%raw%}
 	<html>
 		<head>
 			<title>{{ site.title }}</title>
@@ -67,7 +67,7 @@ tags:
 			<div class="footer">FOOTER</div>
 		</body>
 	</html>
-
+{%endraw%}
 	/_layouts/default.html
 
 ### _includes
@@ -75,7 +75,7 @@ tags:
 위의 html코드를 보면 사실은 `<div class="post">`의 윗부분과 아랫부분은 사실 **어떤 페이지에서도 동일하다**는것을 알 수 있다. POST부분은 각 페이지에 따라서 조금씩 달라질 수도 있지만 네비게이션 바와 Footer는 변할 이유가 없기 때문이다. 따라서 저 두 부분을 따로 빼둘 수 있게 된다.
 
 우선 _includes 폴더를 만들고, 그 안에 아래와 같은 두 파일을 만들어서 넣어보자.
-
+{%raw%}
 	<html>
 		<head>
 			<title>{{ site.title }}</title>
@@ -88,7 +88,7 @@ tags:
 	<div class="footer">FOOTER</div>
 		</body>
 	</html>
-	
+{%endraw%}
 	/_includes/footer.html
 
 그리고 아래와 `_layouts/default.html`을 아래와 같이 변형시켜주자.
