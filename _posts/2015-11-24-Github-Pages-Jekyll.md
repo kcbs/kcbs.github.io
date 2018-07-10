@@ -10,11 +10,15 @@ tags:
 
 {% include github-page.html %}
 
+<div class="msg-box">
+이 페이지는 2018/07/10에 수정되었습니다.
+</div>
+
 ## 시작하며
 
 지난 시간에는 기본중의 기본인 github pages 저장소만 만들어봤다. USERNAME.github.io로 이름지어진 이 페이지는 Github이 알아서 해당 주소로 사이트를 올려주게 된다. 근본적으로는 `static site`이기 때문에 서버사이드 코드는 전혀 사용할 수 없으며, 이 특성때문에 사실은 블로그로 활용하기 애매해진다.
 
-이 단점을 극복할 수 있는 방법이 있는데 바로 `Jekyll`이다. <a href="http://jekyllrb.com/">`Jekyll`</a>이란 루비를 사용한 "컴파일형" static website 제작 라이브러리이다. 웹사이트의 component들을 따로따로 만든 후에 컴파일을 해서 스태틱 웹사이트를 만들어주는 방식이다.
+이 단점을 극복할 수 있는 방법이 바로 `Jekyll`이다. <a href="http://jekyllrb.com/">`Jekyll`</a>이란 루비를 사용한 "컴파일형" static website 제작 라이브러리이다. 웹사이트의 component들을 따로따로 만든 후에 컴파일을 해서 스태틱 웹사이트 (HTML 파일)를 만들어주는 방식이다.
 
 예를들어, Navigation Bar부분의 html코드를 따로 만들고, Footer부분을 따로 만들고, 본문 부분을 따로 만들어보자. 그리고 Jekyll을 이용해서 저 세개를 하나로 이어붙여주는 방식을 취하게 되는 것이다.
 
@@ -30,6 +34,10 @@ tags:
     name: [WEBSITE NAME]
     description: [WEBSITE DESCRIPTION]
     markdown: redcarpet
+
+`name`은 사이트의 이름, `description`은 웹사이트의 설명을 의미한다.
+
+`markdown`은 사용할 마크다운 언어 종류를 의미하는데, 우선은 그렇게 중요하지 않기 때문에 넘어가도록 한다.
 
 ### _layouts
 그다음은 layout이다. 간단히 그냥 블로그 페이지의 html 코드를 만든다고 생각하면 된다. 포스팅별로 달라지는 것은 단순히 본문의 글과 제목 뿐이며, 따라서 베이스가 되는 html코드는 하나 뿐이라고 보면 된다. 우선 샘플로 아래와 같은 html코드가 있다고 생각하자.

@@ -29,8 +29,10 @@
 			{% assign counter = 0 %}
 			{% for p in site.posts %}
 				{% if counter < 5 %}
-					{% assign counter = counter | plus:1 %}
-					<li><a href="{{p.url}}">[{{p.category}}] {{p.title | truncate:15,'...'}}</a></li>
+					{% if p.category != "hidden" %}
+						{% assign counter = counter | plus:1 %}
+						<li><a href="{{p.url}}">[{{p.category}}] {{p.title | truncate:15,'...'}}</a></li>
+					{% endif %}	
 				{% endif %}
 			{% endfor %}
 		</ul>
