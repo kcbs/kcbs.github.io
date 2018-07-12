@@ -7,6 +7,7 @@ permalink: pretty
 highlighter: pygments
 
 gems:
+- jekyll-seo-tags
 - jekyll-sitemap
 - jekyll-mentions
 - jekyll-redirect-from
