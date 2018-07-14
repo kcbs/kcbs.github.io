@@ -1,13 +1,14 @@
 ---
 layout: default
 title: 더블 버퍼링(Double Buffering)이란?
-category: hidden
+category: tip
 tags:
 - tip
 - double buffering
 - triple buffering
 - buffering
 - graphics
+- c++
 ---
 
 ## 랜더링 과정을 살펴보자...
@@ -39,9 +40,9 @@ tags:
 
     // CDlg의 paint 메소드
     void CMainDlg::paint() {
-        CPaintDC    mainDC(this);  // 화면에 접근하는 DC
-        CDC         *mainDC;
-        CDC         memDC;         // 임시 메모리 DC
+        CPaintDC    dc(this);  
+        CDC         *mainDC;        // 화면에 접근하는 DC
+        CDC         memDC;          // 임시 메모리 DC
 
         CRect rect;
         this->GetClientRect(&rect);
@@ -49,19 +50,36 @@ tags:
         CBitmap *oldBitmap;
         CBitmap tempBitmap;
 
+        mainDC = this->GetDC();
+
         // 메인 DC를 사용하여 memCD 초기화
         memDC.CreateCompatibleDC(mainDC);
         // 현재 그리기 영역 사이즈의 임시 Bitmap 생성
         tempBitmap.CreateCompatibleBitmap(mainDC, rect.right, rect.bottom);
         
+        // 새로운 Bitmap 선택
         oldBitmap = memDC.SelectObject(tempBitmap);
 
+        // 메모리 DC에 하얀 배경 출력
         memDC.PatBlt(0, 0, rect.right, rect.bottom, WHITENESS);
 
-        mainDC
+        // 메모리 DC 10,10 위치부터 20,20까지 사각형 그리기
+        memDC.Rectangle(10,10,20,20);
+
+        // 메모리 DC의 비트맵을 메인 DC에 옮겨 그려준다.
+        mainDC->BitBlt(0, 0, rect,right, rect.bottom, &memDC, 0, 0, SRCCOPY);
+
+        // 클린업
+        memDC.SelectObject(oldBitmap);
+        memDC.DeleteDC();
 
     }
 
+위 코드를 보면 알겠지만, 화면 만큼의 Bitmap을 만들어두고 거기에 모든 그래픽 작업을 진행하게 된다. 그 후, 화면에 연결된 메인 DC에 그대로 붙여넣기를 하게 된다.
+
 ## 참고 자료
+<https://ko.wikipedia.org/wiki/%EB%8B%A4%EC%A4%91_%EB%B2%84%ED%8D%BC%EB%A7%81>
+<https://en.wikipedia.org/wiki/Multiple_buffering>
+
 
 
