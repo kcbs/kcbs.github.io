@@ -4,7 +4,7 @@ description: KCBS's fun blog
 paginate: 10
 markdown: redcarpet
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 
 gems:
 - jekyll-seo-tags
