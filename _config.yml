@@ -2,7 +2,7 @@ name: KCBS blog
 description: KCBS's fun blog
 
 paginate: 10
-markdown: redcarpet
+markdown: kramdown
 permalink: pretty
 highlighter: rouge
 
