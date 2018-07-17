@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 더블 버퍼링(Double Buffering)이란?
-category: tip
+category: Tips
 tags:
 - tip
 - double buffering
