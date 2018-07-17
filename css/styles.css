@@ -187,6 +187,10 @@ h2 {
 	display:none;
 }
 
+pre {
+	background-color:#222;	
+}
+
 /* high res fix*/
 @media (min-width: 768px) {
 	.navbar-header {
