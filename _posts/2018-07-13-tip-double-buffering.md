@@ -37,7 +37,7 @@ tags:
 
 ## 예시를 보여주세요.
 우선 예시는 간단한 `MFC` `C++`로 진행한다.
-
+```C++
     // CDlg의 paint 메소드
     void CMainDlg::paint() {
         CPaintDC    dc(this);  
@@ -74,7 +74,7 @@ tags:
         memDC.DeleteDC();
 
     }
-
+```
 위 코드를 보면 알겠지만, 화면 만큼의 Bitmap을 만들어두고 거기에 모든 그래픽 작업을 진행하게 된다. 그 후, 화면에 연결된 메인 DC에 그대로 붙여넣기를 하게 된다.
 
 ## 참고 자료
