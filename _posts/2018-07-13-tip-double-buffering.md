@@ -37,7 +37,7 @@ tags:
 
 ## 예시를 보여주세요.
 우선 예시는 간단한 `MFC` `C++`로 진행한다.
-```C++
+```cpp
 // CDlg의 paint 메소드
 void CMainDlg::paint() {
     CPaintDC    dc(this);  
