@@ -101,10 +101,12 @@ heroku create APPNAME
 짠! 잠시 기다리면 `Creating example... done` 이라는 말이 나오며 Heroku 서버에 서비스가 생성되게 됩니다. 이제 아까 만든 App을 업로드만 하면 될 듯 합니다!
 
 ```shell
+git add -R .
+git commit -m "Initial Commit"
 git push heroku master
 ```
 
-위 명령어를 실행하면 git remote에서 많은 메시지들이 출력되는 것을 볼 수 있는데, heroku 서버에서 방금 올린 소스코드를 빌드하는 메시지들입니다. 코드에 오류가 있을 경우 BUILD가 실패하게 되며, 메시지에서 확인할 수 있습니다.
+마지막 push 명령어를 실행하면 git remote에서 많은 메시지들이 출력되는 것을 볼 수 있는데, heroku 서버에서 방금 올린 소스코드를 빌드하는 메시지들입니다. 코드에 오류가 있을 경우 BUILD가 실패하게 되며, 메시지에서 확인할 수 있습니다.
 
 ## 테스트하기
 
