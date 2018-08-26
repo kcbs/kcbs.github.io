@@ -25,7 +25,7 @@ tags:
 
 우선, Node.js Application을 만들어야 합니다. 다음 명령어를 사용하여 초기화시켜줍시다.
 
-```bash
+```shell
 mkdir helloheroku
 npm init
 ```
@@ -38,7 +38,7 @@ npm init
 
 이제 Node.js 어플리케이션을 웹 서버로 만들기 위하여 express 모듈이 필요하게 됩니다. 아래 명령어를 실행해봅시다.
 
-```bash
+```shell
 npm install express
 ```
 
@@ -46,7 +46,7 @@ npm install express
 
 이제 helloheroku 폴더에 엔트리포인트로 `index.js` 파일을 만들고, 아래와 같은 내용을 입력하여 봅시다.
 
-```Javascript
+```javascript
 var PORT = process.env.PORT || 8080;
 
 var express 	= require('express');
@@ -63,7 +63,7 @@ app.listen(PORT, function() {
 
 간단하게 "Hello, World!"를 프린트하는 app을 만들어봤습니다. 자, 이제 `package.json`을 수정하여 "start" 스크립트를 만들어줍시다.
 
-```JSON
+```json
 {
 	"name": "helloworld",
 	...
@@ -80,7 +80,7 @@ app.listen(PORT, function() {
 
 우선, Heroku 로그인을 해봅시다. 아래 명령어를 실행합니다.
 
-```bash
+```shell
 heroku login
 ```
 
@@ -88,19 +88,19 @@ heroku login
 
 Heroku는 git을 활용하여 소스코드를 업로드 하게 됩니다. 즉, 아까 만들어둔 app을 git repository로 만들 필요성이 생깁니다.
 
-```bash
+```shell
 git init
 ```
 
 이제 heroku 서버에 우리의 App을 만들 컨테이너를 생성해야 합니다. 아래와 같은 명령어를 실행하여 만들 수 있습니다. `APPNAME`은 원하는 이름으로 설정합시다.
 
-```bash
+```shell
 heroku create APPNAME
 ```
 
 짠! 잠시 기다리면 `Creating example... done` 이라는 말이 나오며 Heroku 서버에 서비스가 생성되게 됩니다. 이제 아까 만든 App을 업로드만 하면 될 듯 합니다!
 
-```bash
+```shell
 git push heroku master
 ```
 
