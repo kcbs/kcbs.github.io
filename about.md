@@ -1,16 +1,18 @@
 ---
-layout: notag
-title: KCBS 블로그
+layout: single
+title: About
+permalink: /about/
 ---
-## KCBS블로그는?
-소프트웨어 관련된 이슈들을 다룹니다. 게임, 프로그래밍 팁, 튜토리얼, 화제의 사건 등등 모조리 다룹니다. 제 관심 분야들만 다루기 때문에 실제로 다뤄지지 않는게 많을 수 있으니 참고해 주세요.
 
-## 어떻게 만들어졌나요?
-> * <a href="https://pages.github.com/">Github Pages</a>
-> * <a href="http://getbootstrap.com/">Bootstrap</a>
-> * <a href="https://jekyllrb.com/">Jekyll</a>
-위의 라이브러리/서비스를 사용하였습니다.
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-## 글을 퍼가도 되나요?
-자유입니다. 애초에 퍼가도 도움이 될거라고 생각하지는 않지만, 마음대로 퍼가셔도 됩니다.
-단, 글을 퍼가실 때에는 사이트 하단의 <a href="http://creativecommons.org/licenses/by-nc/4.0/">CCL 4.0 BY-NC</a>를 준수해주세요.
+You can find the source code for Minima at GitHub:
+[jekyll][jekyll-organization] /
+[minima](https://github.com/jekyll/minima)
+
+You can find the source code for Jekyll at GitHub:
+[jekyll][jekyll-organization] /
+[jekyll](https://github.com/jekyll/jekyll)
+
+
+[jekyll-organization]: https://github.com/jekyll

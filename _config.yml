@@ -1,15 +1,86 @@
-name: KCBS blog
-description: KCBS's fun blog
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-remote_theme: mmistakes/minimal-mistakes
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Your awesome title
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: qorcjftns
+github_username:  qorcjftns
 
-paginate: 10
+# Build settings
 markdown: kramdown
-permalink: pretty
-highlighter: rouge
+# theme: minima
+remote_theme : mmistakes/minimal-mistakes
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-gems:
-- jekyll-seo-tags
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-redirect-from
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+paginate: 5
+
+repository: "kcbs/kcbs.github.io"
+
+head_scripts:
+  - https://code.jquery.com/jquery-3.2.1.min.js
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+locale                   : "ko" # 타깃 국가 설정
+name                     : "kcbs.github.io"
+description              : "kcbs.github.io"
+url                      : "https://kcbs.github.io" # 블로그 주소
+repository               : "kcbs/kcbs.github.io" # 블로그 github 리포지토리
+search                   : true # 사이트 우측 상단 검색 활성화
+search_full_content      : # 제목이 아닌 내용까지도 검색할 것인지에 대한 설정 기본 false
+
+author:
+  name             : "KCBS"
+  avatar           : "" # 프로필 사진
+  bio              : "SW Developer @ R.O.K. Army"
+  location         : "Seoul, Korea"
+  email            : "qorcjftns2@gmail.com"
+  uri              : # 웹사이트, 보통 지금 블로그 말고 링크해두고 싶은 사이트를 적는다.
+  # 이 아래 쇼셜 리스트에 해당되는 것에 아이디를 적는다
+  github : "qorcjftns" # 주소 전체를 적는 것이 아닌 자신의 정보만 적는다.
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false # 해당 포스트를 읽은 시간이 표시되는데 기본값은 true이다.
+      comments: # true
+      share: true # 포스트 공유 기능을 활성화 할 것인지 정한다. 기본값은 true이다.
+      related: true
