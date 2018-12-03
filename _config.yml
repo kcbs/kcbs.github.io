@@ -1,6 +1,8 @@
 name: KCBS blog
 description: KCBS's fun blog
 
+remote_theme: mmistakes/minimal-mistakes
+
 paginate: 10
 markdown: kramdown
 permalink: pretty
