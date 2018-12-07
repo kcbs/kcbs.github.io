@@ -84,3 +84,11 @@ defaults:
       comments: # true
       share: true # 포스트 공유 기능을 활성화 할 것인지 정한다. 기본값은 true이다.
       related: true
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single

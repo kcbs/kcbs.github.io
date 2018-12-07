@@ -1,13 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      title: "Posts by Year"
+permalink: /year-archive/
+layout: single
+author_profile: true
+title: "Posts by Year"
 ---
 {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
 {% for year in postsByYear %}
