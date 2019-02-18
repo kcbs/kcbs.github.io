@@ -75,7 +75,7 @@ npm start
 
 `npm start` 명령어를 사용하면 `Starting t he development server...`라는 메시지가 나오고, 잠시 기다리면 `Compiled successfully!`라는 메시지와 함께 접근할 수 있는 주소가 나오게 되고, 사용하는 브라우저를 사용해서 해당 주소에 접근하면 다음과 같은 화면이 보이게 된다.
 
-
+![create_react_app_initial_page](/assets/img/create_react_app_initial_page.PNG){:class="img-responsive"}
 
 ## 마치며
 
